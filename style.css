@@ -24,6 +24,16 @@ body {
     background: radial-gradient(circle, black, purple);
     color: white;
     padding: 3vh;
-    width: 20vw;
+    width: 30vw;
     margin: auto;
+}
+
+a {
+    color: ghostwhite;
+}
+
+.dyslexia {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
