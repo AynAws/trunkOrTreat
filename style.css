@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Papyrus;
+    src: url(font/Papyrus\ Font.ttf);
+}
+body {
+    font-family: Papyrus;
+    padding: 1.5vw;
+}
+.title {
+    text-align: center;
+}
+.subtitle {
+    text-align: center;
+    color: grey;
+}
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dark-blend {
+    text-align: center;
+    background: radial-gradient(circle, black, purple);
+    color: white;
+    padding: 3vh;
+    width: 20vw;
+    margin: auto;
+}
