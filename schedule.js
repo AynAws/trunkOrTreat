@@ -4,7 +4,7 @@ $(document).ready(function() {
     $('#dateInfo').on('click', function() {
         $('#moreInfo').fadeOut(500, function() {
             // Change text after fadeOut is complete
-            $('#moreInfo').text('Ski').fadeIn()
+            $('#moreInfo').text('Trunk or Treat starts at 4:00 PM and ends at 5:30 PM on October 29th. Should, for any reason, the event be cancelled on the 29th, it will be moved to the 30th.').fadeIn()
         });
         console.log('ski');
     });
