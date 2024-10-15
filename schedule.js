@@ -1,9 +1,24 @@
 $(document).ready(function() {
+    $('#moreInfo').hide()
     // Event handler for #dateInfo click
     $('#dateInfo').on('click', function() {
-        $('#infoBox').fadeOut(500, function() {
+        $('#moreInfo').fadeOut(500, function() {
             // Change text after fadeOut is complete
-            $(this).text('Ski').fadeIn(500);
+            $('#moreInfo').text('Ski').fadeIn()
+        });
+        console.log('ski');
+    });
+    $('#dressInfo').on('click', function() {
+        $('#moreInfo').fadeOut(500, function() {
+            // Change text after fadeOut is complete
+            $('#moreInfo').text('sKI').fadeIn()
+        });
+        console.log('ski');
+    });
+    $('#trunkInfo').on('click', function() {
+        $('#moreInfo').fadeOut(500, function() {
+            // Change text after fadeOut is complete
+            $('#moreInfo').text('SKIII').fadeIn()
         });
         console.log('ski');
     });
