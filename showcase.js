@@ -11,5 +11,5 @@ if (window.innerWidth >= 576) {
   } else {
     $(document).ready(function () {
         $('.text-box').fadeIn();
-    }
-}
+    })
+  }
