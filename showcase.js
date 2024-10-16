@@ -8,4 +8,8 @@ if (window.innerWidth >= 576) {
         $(event.currentTarget).siblings('.text-box').fadeOut();
       });
     });
-  }
+  } else {
+    $(document).ready(function () {
+        $('.text-box').fadeIn();
+    }
+}
